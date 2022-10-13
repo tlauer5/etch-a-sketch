@@ -66,6 +66,10 @@ h1 {
     width: 20px;
 }
 
-.hovered {
+.hovered.classic {
     background-color: black;
+}
+
+.hovered.rubber {
+    background-color: white;
 }
