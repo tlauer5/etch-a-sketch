@@ -9,14 +9,17 @@ h1 {
     text-align: center;
 }
 
-.choiceSection {
+.choiceSection,
+.bottomSection {
     display: flex;
     justify-content: center;
     gap: 16px;
-    margin-bottom: 28px;
+    margin: 28px;
 }
 
-.button {
+.button,
+.size,
+.reset {
     font-weight: 700;
     font-size: 16px;
     border-radius: 6px;
@@ -50,8 +53,10 @@ h1 {
 }
 
 .container {
-    display: flex;
+    display: grid;
     flex-direction: column;
+      
+
 }
 
 .row {
@@ -73,3 +78,4 @@ h1 {
 .hovered.rubber {
     background-color: white;
 }
+
